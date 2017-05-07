@@ -12,7 +12,6 @@ import Helper.FileReader;
 public class GenerateTextFiles {
 	private ArgsHelper argsHelper = new ArgsHelper();
 
-	// -nof 10 -source E:\source.txt -destination E:\temp -mnol 10
 	public static void main(String[] args) throws IOException {
 		GenerateTextFiles generateTextFile = new GenerateTextFiles();
 		generateTextFile.generate(args);
